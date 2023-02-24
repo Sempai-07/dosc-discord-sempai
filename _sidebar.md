@@ -1,0 +1,21 @@
+# Главная
+- [Введення](/)
+ # Основное
+    - [Слэш](/main/interaction.md)
+    - [Текстовые кмд](/main/text_cmd.md)
+    - [Алиасы](/main/aliases.md)
+    - [Статус](/main/status.md)
+    - [События](/main/event.md)
+    - [Загрузчик](/main/commands_handler.md)
+ # Классы
+    - [Music](/classic/music.md)
+    - [Parser](/classic/parser.md)
+    - [Database](/classic/database.md)
+    - [Role](/classic/role.md)
+    - [Invite](/classic/invite.md)
+    - [Link](/classic/link.md)
+ # Другое
+    - [Классы](/util/classes.md)
+    - [Функции](/util/function.md)
+    - [Опции](/util/options.md)
+    - [Версии](/util/versions.md)
