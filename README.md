@@ -30,7 +30,6 @@ const bot = new Bot({
 });
 // Используйте методы библиотеки, чтобы создать необходимые функциональности для Вашего бота.
 
-Copy code
 bot.createEvent({
 name: 'ready',
 code: (client) => {
