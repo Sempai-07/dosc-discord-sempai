@@ -45,12 +45,12 @@ bot.command({
   }
 });
 
-bot.login("DISCORD_BOT_TOKEN");
+bot.connect("DISCORD_BOT_TOKEN");
 ```
 
 ## Документация
 
-Подробную документацию по Discord sempai можно найти на официальном сайте.
+Подробную документацию по Discord sempai можно найти на <a href="https://Sempai-07.github.io/dosc-discord-sempai">официальном сайте</a>
 
 ## Вклад
 
