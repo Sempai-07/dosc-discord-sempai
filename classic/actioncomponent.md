@@ -14,7 +14,7 @@
 - `url`: ссылка, на которую будет перенаправлен пользователь при нажатии на кнопку (опционально).
 
 
-## Пример использования метода `addButton()`:
+### Пример использования метода addButton():
 
 ```javascript
 const { ActionComponent } = require('discord-sempai');
@@ -56,7 +56,7 @@ bot.interactionCreate({
    - `value` (обязательно): уникальное значение, которое будет возвращено при выборе пользователем этого пункта.
    - `description`: описание пункта, которое будет отображаться при наведении на него.
 
-## Пример использования метода addSelectMenu():
+### Пример использования метода addSelectMenu():
 
 ```javascript
 const { ActionComponent } = require('discord-sempai');

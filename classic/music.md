@@ -99,7 +99,7 @@ bot.command({
 })
 ```
 
-`queueSongs(guildId, messageFormat = "{position}: Автор: {author} - {name}, добавил: {useradd}", numSongs = 10)`` - возвращает список из указанного количества песен из очереди.
+`queueSongs(guildId, messageFormat = "{position}: Автор: {author} - {name}, добавил: {useradd}", numSongs = 10)` - возвращает список из указанного количества песен из очереди.
 
 ```js
 const music = client.music.queueSongs(message.guild.id, "{position}: Автор: {author} - {name}, добавил: {useradd}");
