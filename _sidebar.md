@@ -11,6 +11,8 @@
     - [Music](/classic/music.md)
     - [Parser](/classic/parser.md)
     - [Database](/classic/database.md)
+    - [MessageAttachment](/classic/messageattachment.md)
+    - [ActionComponent](/classic/actioncomponent.md)
     - [Role](/classic/role.md)
     - [Invite](/classic/invite.md)
     - [Link](/classic/link.md)
