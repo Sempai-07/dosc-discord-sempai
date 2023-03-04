@@ -55,7 +55,7 @@ bot.createEvent({
 // обработчик события message
 bot.createEvent({
   name: 'createMessage',
-  code: (message) => {
+  code: (client, message) => {
   if (message.content === 'ping') {
     message.reply('Pong!');
    }
