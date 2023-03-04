@@ -1,4 +1,4 @@
-# Класс Cache из библиотеки discord-sempai
+# Cache в библиотеки discord-sempai
 
 Класс `Cache` является частью библиотеки `discord-sempai` и используется для хранения и управления кешем в Discord.js v14.
 

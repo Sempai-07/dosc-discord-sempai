@@ -69,11 +69,10 @@ module.exports = {
 
 ##### Events => ./events/info/messageCreate.js
 ```javascript
-const client = require("...")
 module.exports = {
   name: 'messageCreate',
   once: false,
-  code: async(message) => {
+  code: async(client, message) => {
     message.reply(`У ${client.user.tag   + client.ws.ping}  пинга`)
   }
 }
@@ -84,8 +83,8 @@ module.exports = {
 const { MessageEmbed } = require('discord-sempai');
 module.exports = {
     id: 'select_test',
-    type: 'select', // button/select/modal
-    code: (client, interaction) => {
+    prototype: 'select', // button/select/modal/contextmenu
+    code: (client, interaction, args) => {
         const info = new MessageEmbed()
         .setTitle('Информация')
         .setDescription('Привет 💩😈')
