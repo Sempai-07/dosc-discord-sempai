@@ -5,6 +5,7 @@
     - [Текстовые кмд](/main/text_cmd.md)
     - [Алиасы](/main/aliases.md)
     - [Статус](/main/status.md)
+    - [Кэш](/main/cache.md)
     - [События](/main/event.md)
     - [Загрузчик](/main/commands_handler.md)
  # Классы
@@ -14,6 +15,7 @@
     - [MessageAttachment](/classic/messageattachment.md)
     - [ActionComponent](/classic/actioncomponent.md)
     - [Role](/classic/role.md)
+    - [Webhook](/classic/webhook.md)
     - [Invite](/classic/invite.md)
     - [Link](/classic/link.md)
  # Другое
