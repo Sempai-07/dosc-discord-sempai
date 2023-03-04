@@ -30,6 +30,7 @@ const bot = new Bot({
 });
 // Используйте методы библиотеки, чтобы создать необходимые функциональности для Вашего бота.
 
+Copy code
 bot.createEvent({
 name: 'ready',
 code: (client) => {
@@ -44,12 +45,12 @@ bot.command({
   }
 });
 
-bot.connect("DISCORD_BOT_TOKEN");
+bot.login("DISCORD_BOT_TOKEN");
 ```
 
 ## Документация
 
-Подробную документацию по Discord sempai можно найти на <a href="https://Sempai-07.github.io/dosc-discord-sempai">официальном сайте</a>
+Подробную документацию по Discord sempai можно найти на официальном сайте.
 
 ## Вклад
 

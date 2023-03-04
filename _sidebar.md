@@ -1,6 +1,6 @@
 # Главная
 - [Введення](/)
- # Основное
+ # Команды
     - [Слэш](/main/interaction.md)
     - [Текстовые кмд](/main/text_cmd.md)
     - [Алиасы](/main/aliases.md)
@@ -18,6 +18,17 @@
     - [Webhook](/classic/webhook.md)
     - [Invite](/classic/invite.md)
     - [Link](/classic/link.md)
+    - [TextFormatter](/classic/textformatter.md)
+    - [Paginator](/classic/paginator.md)
+    - [Randomizer](/classic/randomizer.md)
+    - [Verification](/classic/verification.md)
+    - [PromiseUtils](/classic/promiseutils.md)
+    - [FileManager](/classic/filemanager.md)
+    - [ErrorHandler](/classic/errorhandler.md)
+    - [AsyncHandler](/classic/asynchandler.md)
+    - [SlashCommandManager](/classic/slashcommand.md)
+    - [ContextMenuManager](/classic/contextmenu.md)
+    - [InteractionReplyOption](/classic/interactionreply.md)
  # Другое
     - [Классы](/util/classes.md)
     - [Функции](/util/function.md)

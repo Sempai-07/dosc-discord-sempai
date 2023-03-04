@@ -17,16 +17,16 @@
     loadSidebar: true,
     autoHeader: true,
     coverpage: true
+    auto2top: true,
+    loadNavbar: {
+      disableAutoGen: true
+    },
+    homepage: 'README.md'
   };
 </script>
 <!-- Docsify v4 -->
 <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
 <script src="//unpkg.com/docsify-sidebar@4.0.3/dist/docsify-sidebar.min.js"></script>
 <script src="//unpkg.com/docsify-collapse@latest/docsify-collapse.min.js"></script>
-<script>
-  if (typeof navigator.serviceWorker !== 'undefined') {
-    navigator.serviceWorker.register('sw.js')
-  }
-</script>
 </body>
 </html>
