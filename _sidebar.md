@@ -31,6 +31,5 @@
     - [InteractionReplyOption](/classic/interactionreply.md)
  # Другое
     - [Классы](/util/classes.md)
-    - [Функции](/util/function.md)
     - [Опции](/util/options.md)
     - [Версии](/util/versions.md)
