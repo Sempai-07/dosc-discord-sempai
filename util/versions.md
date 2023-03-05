@@ -1,10 +1,23 @@
-## 0.3.0@beta
+## 0.3.3
 
-- Теперь для подключения бота к Discord необходимо использовать метод `bot.connect("token")`.
-- В методах `bot.loaderEvent`, `bot.loaderTextCmd` и `bot.loaderSlashCmd` теперь можно указывать только имя папки, где находятся команды. Это упрощает загрузку команд в случае, когда в папке находится много подпапок с командами.
-- Добавлены методы `queueLength` и `hasMusicPlaying`, которые позволяют получить текущую длину очереди и информацию о том, играет ли музыка в данный момент.
+- исправил ошибку в `interactionCreate`, `loaderSlashCmd`, вы не могли просто создать кмд без опций
+
+## 0.3.0
+
+- Добавлены новые классы: `Cache`, `GuildEmoji`, `GuildManager`, `MessageReaction`, `GuildRole`, `GuildWebhook`, `GuildInvite`, `PermissionChecker`, `GuildVoice`, `MessageCollection`, `MessageReplyOption`, `Paginator`, `Randomizer`, `TextFormatter`, `Verification`, `FileManager`, `ErrorHandler`, `AsyncHandler`, `SlashCommandManager`, `SlashCommandOption`, `ContextMenuManager`.
+- Добавлен параметр `prototype` в `interactionCreate` и `loaderComponent`, это замена параметра `type`.
+- Добавлен параметр `contextmenu` в `interactionCreate` и `loaderComponent`.
+- Добавлены новые функции в класс Music: `isMusicPlaying`, i`sTrackPaused`, `isTrackLooping`, `isQueueLooping`, `getLoopType`, `getCurrentVolume`, `queueLength`, `skipTrack`, `loopMusic`, `queueSongs`.
+- В `createEvent` и `loaderEvent` первым параметром теперь является `client`.
+- В `interactionCreate` и `loaderComponent`(slash) был  третий параметр `args`.
+- Для подключения бота к `Discord` теперь необходимо использовать метод `bot.connect("token")`.
+- В методах `bot.loaderEvent`, `bot.loaderTextCmd` и `bot.loaderSlashCmd` теперь можно указывать только имя папки, где находятся команды.
 - Добавлена поддержка `{field:name:description:inline}` в парсере сообщений.
 - Теперь в кнопках можно использовать 5 стиль (ссылку).
+
+Удалено:
+- Все функции, которые не относятся к классам.
+- Класс `Util` был удален.
 
 
 ## 0.2.0
